@@ -27,10 +27,41 @@ This project explores the Titanic dataset and applies classification models to p
 - `titanic.csv` – Dataset (if not public, mention where to get it)
 - `requirements.txt` – Python package dependencies
 
+▶️ How to Run
+Clone the repository
+
+Make sure you have titanic.csv in the same folder
+
+Run the notebook: titanic_survival_eda.ipynb
+
+The model will be trained and saved as titanic_model.pkl
+
+📈 Results
+Achieved high accuracy using Random Forest
+
+Cross-validation score shows consistent performance
+
+Feature engineering like title extraction boosted accuracy
+
 ---
+📚 Dataset Source
+Kaggle - Titanic: Machine Learning from Disaster
+
+🙌 Credits
+Project by Manav Bhuta
+Guided with Scikit-Learn and Titanic dataset
+
+📌 Future Ideas
+GUI or Streamlit web app
+
+Hyperparameter tuning
+
+Add more ensemble models (XGBoost, etc.)
 
 ## 📦 Requirements
 
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
+
+
